@@ -1,0 +1,131 @@
+html body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif, sans-serif;
+    background-color: #e1f6e8;
+
+  }
+  .logo {
+    width: 200px;
+    
+    margin-left: 0;
+  }
+  .nav {
+    background: rgb(245, 225, 76) ;
+    color: white;
+    height: 200px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10;
+    
+  }
+  .nav li a {
+    text-decoration: none; 
+    color: #333;
+    font-weight: bold;
+  }
+  .nav li a:hover {
+    color: olivedrab;
+  }
+  .intro {
+    background: url(/banner.png);
+    height: 100%;
+    text-align: center;
+    margin-top: 10px;
+    background-size: cover;
+  }
+  .intro h1 {
+    font-size: 36px;
+    color: #023b02;
+    padding-top: 10%;
+  }
+  .intro p {
+    font-size: 18px;
+    color: #0e5314;
+    padding-bottom: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .icone {
+    width: 55px;
+  }
+  .content div {
+    background-color: #d3e3dac5;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  .content div h3 {
+    font-size: 24px;
+    color: #333;
+  }
+  .content div p {
+    font-size: 16px;
+    color: #666;
+    text-align: justify;
+  }
+  .coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+  }
+  section{
+    padding: 30px;
+    float: left;
+  }
+  h4{
+    text-align: center;
+  }
+  #outracoluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 15%;
+  }
+  #selecao{
+    background-color: #fff;
+    padding: 10%;
+    text-align: center;
+  }
+  #efeito {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: rgb(52, 82, 4);
+    font-weight: bold;
+  }
+  #efeito:hover {
+    color: olivedrab;
+  }
+  .destaque {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 30px;
+    margin-top: 20px;
+  }
+  .destaque div {
+    background-color: #ffffffac;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  .destaque div h3 {
+    font-size: 24px;
+    color: #333;
+  }
+  .destaque div p {
+    font-size: 16px;
+    color: #666;
+    text-align: justify;
+  }
+   .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .footer p {
+    font-size: 14px;
+  }
+  
+ 
+  
